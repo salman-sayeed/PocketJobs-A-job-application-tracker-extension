@@ -1,0 +1,27 @@
+{
+  "name": "pocketjobs-a-job-application-tracker-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salman-sayeed/PocketJobs-A-job-application-tracker-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/salman-sayeed/PocketJobs-A-job-application-tracker-extension/issues"
+  },
+  "homepage": "https://github.com/salman-sayeed/PocketJobs-A-job-application-tracker-extension#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.19"
+  }
+}
