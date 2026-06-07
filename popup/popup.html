@@ -50,8 +50,9 @@
               <p class="text-sm text-white">Job Link</p>
             </div>
             <input
+              id="job-url"
               type="text"
-              placeholder=""
+              placeholder="Fetching current job link..."
               class="w-full bg-gray-500 text-white placeholder:text-gray-400 h-[30px] px-4 text-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -78,6 +79,7 @@
             </div>
 
             <input
+              id="job-company"
               type="text"
               placeholder="e.g. Google, Microsoft"
               class="w-full bg-gray-500 text-white placeholder:text-slate-300 h-[30px] px-4 text-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -106,6 +108,7 @@
             </div>
 
             <input
+              id="job-position"
               type="text"
               placeholder="e.g. Software Engineer/Full-Stack Developer"
               class="w-full bg-gray-500 text-white placeholder:text-slate-300 h-[30px] px-4 text-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -134,22 +137,27 @@
             </div>
 
             <input
+              id="job-salary"
               type="text"
               placeholder="e.g. 45000 - 50000"
               class="w-full bg-gray-500 text-white placeholder:text-slate-300 h-[30px] px-4 text-sm rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-
+          <div class="text-xs text-red-400 italic px-1.5">
+            <span id="error-message"> </span>
+          </div>
           <!-- Buttons -->
           <div class="py-3 flex items-center justify-center gap-4 w-full">
             <!-- ADD JOB  -->
             <button
+              id="add-job-btn"
               class="bg-blue-500 hover:bg-blue-600 active:scale-95 hover:scale-[1.03] hover:shadow-md transition-all duration-200 flex-1 h-[30px] flex items-center justify-center rounded-lg font-medium text-white tracking-wide"
             >
               ADD JOB
             </button>
             <!-- CLEAR ALL  -->
             <button
+              id="clear-all-btn"
               class="bg-red-500 hover:bg-red-600 active:scale-95 hover:scale-[1.03] hover:shadow-md transition-all duration-200 flex-1 h-[30px] flex items-center justify-center rounded-lg font-medium text-white tracking-wide"
             >
               CLEAR ALL
