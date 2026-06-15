@@ -21,7 +21,7 @@ JavaScript, HTML, Tailwind CSS, Chrome Extension APIs, Chrome Storage API, Node.
 ```
 
 ## 💠 Screenshots
-<img src="https://imgur.com/xZ0jHDB.png" alt="Logo.png">
+<img src="https://imgur.com/NH1LGWT.png" alt="Logo.png">
 
 ## 💠 Future Improvements
 
